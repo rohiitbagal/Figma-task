@@ -1,0 +1,54 @@
+/* StudentPortal.css */
+.student-portal {
+  font-family: "Arial, sans-serif";
+}
+
+.portal-body {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  height: calc(100vh - 100px); /* Adjust this height according to your header */
+}
+
+.left-section,
+.middle-section,
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.left-section {
+  margin-right: 20px;
+}
+
+.middle-section {
+  justify-content: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.right-section {
+  margin-left: 20px;
+}
+
+/* Ensure equal height for components inside left and right sections */
+.left-section > div,
+.middle-section,
+.right-section > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quick-links .quick-link {
+  margin: 10px 0;
+}

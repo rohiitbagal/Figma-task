@@ -1,0 +1,39 @@
+.quick-links-container {
+  display: flex;
+  flex-direction: column; /* Stack the cards vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100%; /* Ensure the container takes full height of the section */
+  gap: 20px; /* Space between cards */
+  text-align: center; /* Center align text inside cards */
+}
+
+.quick-links-heading {
+  font-size: 24px; /* Adjust size as needed */
+  font-weight: bold;
+  color: #333; /* Choose a color that suits your theme */
+  margin-bottom: 10px; /* Add space below the heading */
+}
+
+.link-card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.canvas {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.no-live-classes {
+  background-color: #6b7280;
+  color: white;
+}
+
+.contact {
+  background-color: #10b981;
+  color: white;
+}
